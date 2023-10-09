@@ -40,7 +40,7 @@ function App() {
           setRevealedGrid([...newRGrid])
         }, 1000);
       }
-      setPreviousClick(undefined);
+      setPreviousClick(undefined); //Added a comment for save to git
     }
     else {
       setPreviousClick({
